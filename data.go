@@ -5,10 +5,11 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"linear"
 	"math/rand"
 	"os"
 	"strconv"
+
+	"github.com/ornerylawn/linear"
 )
 
 func LoadMatrixCSV(filename string) (linear.Matrix, error) {

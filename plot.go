@@ -3,8 +3,9 @@ package ml
 import (
 	"image"
 	"image/color"
-	"linear"
 	"math"
+
+	"github.com/ornerylawn/linear"
 )
 
 type Color struct {
